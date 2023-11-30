@@ -1,3 +1,5 @@
+;own
+
 (define (fast-expt b n)
   	(define sqb (square b))
 	(if (even? n) (expt-helper sqb (/ n 2) 1)
